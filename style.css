@@ -132,11 +132,13 @@ a:visited {
   font-family: "Roboto", sans-serif;
   letter-spacing: 2.5px;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .Education > h3 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  padding-top: 10px;
 }
 
 .Education > span {
@@ -146,7 +148,25 @@ a:visited {
 
 .Skills {
   grid-area: Skills;
+}
+
+.Skills > h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2.5px;
+  padding-top: 20px;
+}
+
+.skilldiv > div > h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: gray;
+  font-style: italic;
+}
+
+.skillcontainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-top: 8%;
 }
