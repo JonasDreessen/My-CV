@@ -1,0 +1,32 @@
+.container{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "Image Name" "Personalia Introduction-" "Profiles Experience" "Education Skills";
+  }
+  
+  .Image { grid-area: Image; }
+
+  .Image > img{
+      height: 100%;
+      border-radius: 100%;
+  }
+  
+  .Name { grid-area: Name; }
+  
+  .Personalia { grid-area: Personalia; }
+  
+  .Introduction- { grid-area: Introduction-; }
+  
+  .Profiles { grid-area: Profiles; }
+  
+  .Experience { grid-area: Experience; }
+  
+  .Education { grid-area: Education; }
+  
+  .Skills { grid-area: Skills; }
