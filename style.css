@@ -44,39 +44,39 @@
   padding: 30px;
 }
 
-.infopersonalia{
-    display: grid;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+.infopersonalia {
+  display: grid;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
-.infopersonalia > a:hover, a:link{
-    text-decoration: none;
-    color: inherit;
+.infopersonalia > a:hover,
+a:link {
+  text-decoration: none;
+  color: inherit;
 }
-.Title{
-    display: grid;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
+.Title {
+  display: grid;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
-
 
 .Introduction- {
   grid-area: Introduction-;
   text-align: left;
 }
 
-.Introduction- > p{
-    word-spacing: 2.5px;
-    line-height: 200%;
-    padding-top: 20px;
-    font-family: 'Open Sans', sans-serif;
+.Introduction- > p {
+  word-spacing: 2.5px;
+  line-height: 200%;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.Introduction- > h1{
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 2.5px;
+.Introduction- > h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2.5px;
 }
 
 .Profiles {
@@ -88,19 +88,21 @@
   padding: 30px;
 }
 
-.logo{
-    display: grid;
+.logo {
+  display: grid;
 }
 
-.links{
-    display: grid;
-    padding-top: inherit;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+.links {
+  display: grid;
+  padding-top: inherit;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
-.Profiles > a:link, a:hover, a:visited {
-    text-decoration: none;
-    color: inherit;
+.Profiles > a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 .Experience {
@@ -108,22 +110,43 @@
   text-align: left;
 }
 
-.Experience > h1{
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 2.5px;
+.Experience > h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2.5px;
 }
 
-.Experience > p{
-    word-spacing: 2.5px;
-    line-height: 200%;
-    padding-top: 20px;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 20px;
+.Experience > p {
+  word-spacing: 2.5px;
+  line-height: 200%;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 20px;
+}
 
 .Education {
   grid-area: Education;
+  padding: 30px;
+}
+
+.Education > h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 20px;
+}
+
+.Education > h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.Education > span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 .Skills {
   grid-area: Skills;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
